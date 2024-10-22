@@ -1,0 +1,1008 @@
+config-sparse:
+  modules:
+    aiSwapper:
+      config:
+        menu:
+          contents:
+            suggested-value:
+              rat:
+                - name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              snake:
+                - name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              pig:
+                - name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              wolf:
+                - name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              caliph:
+                - name: Brandstifter
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Arsonist/
+                  control:
+                    aic: true
+                    aiv: true
+                    startTroops: true
+              sultan:
+                - name: Sultan (Easterling)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              richard:
+                - name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              frederick:
+                - name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              phillip:
+                - name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              wazir:
+                - name: Kamel
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Camel/
+                  control:
+                    aic: true
+                    aiv: true
+                    startTroops: true
+              emir:
+                - name: Händler
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Merchant/
+                  control:
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              nizar:
+                - name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              sheriff:
+                - name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+              abbot:
+                - name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  control:
+                    binks: true
+                    speech: true
+                    lines: true
+                    portrait: true
+                    aic: true
+                    aiv: true
+                    lord: true
+                    startTroops: true
+        defaultLanguage:
+          contents:
+            suggested-value: de
+        ai:
+          rat:
+            binks:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Ratte (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Rat/
+                  active: true
+          snake:
+            binks:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Schlange (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Snake/
+                  active: true
+          pig:
+            binks:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Schwein (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Pig/
+                  active: true
+          wolf:
+            binks:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Wolf (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
+                  active: true
+          caliph:
+            aic:
+              contents:
+                suggested-value:
+                  name: Brandstifter
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Arsonist/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Brandstifter
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Arsonist/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Brandstifter
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Arsonist/
+                  active: true
+          sultan:
+            aic:
+              contents:
+                suggested-value:
+                  name: Sultan (Easterling)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Sultan (Easterling)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Sultan (Easterling)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Sultan (Easterling)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  active: true
+          frederick:
+            binks:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: König (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/King/
+                  active: true
+          phillip:
+            binks:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Lord Manikin
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
+                  active: true
+          wazir:
+            aic:
+              contents:
+                suggested-value:
+                  name: Kamel
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Camel/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Kamel
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Camel/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Kamel
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Camel/
+                  active: true
+          emir:
+            aic:
+              contents:
+                suggested-value:
+                  name: Händler
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Merchant/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Händler
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Merchant/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Händler
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Merchant/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Händler
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Merchant/
+                  active: true
+          sheriff:
+            binks:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Lord Woolsack (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Woolsack/
+                  active: true
+          abbot:
+            binks:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Abt (SH1)
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Abbot/
+                  active: true
+          nizar:
+            binks:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Skorpion
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Scorpion/
+                  active: true
+          richard:
+            binks:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+            speech:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+            lines:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+            portrait:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+            aic:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+            aiv:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+            lord:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+            startTroops:
+              contents:
+                suggested-value:
+                  name: Berater
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Advisor/
+                  active: true
+    ucp2-legacy:
+      config:
+        ai_access:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_assaultswitch:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_buywood:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_defense:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_fix_crusader_archers_pitch:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_fix_laddermen_with_enclosed_keep:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_nosleep:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_rebuild:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_tethers:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_towerengines:
+          enabled:
+            contents:
+              suggested-value: true
+        ai_housing:
+          delete_housing:
+            enabled:
+              contents:
+                suggested-value: true
+          campfire_housing:
+            contents:
+              suggested-value:
+                enabled: true
+                sliderValue: 8
+          build_housing:
+            contents:
+              suggested-value:
+                enabled: true
+                sliderValue: 5
+        ai_resources_rebuy:
+          flour:
+            contents:
+              suggested-value:
+                enabled: true
+                sliderValue: 36
+          iron:
+            contents:
+              suggested-value:
+                enabled: true
+                sliderValue: 36
+          wood:
+            contents:
+              suggested-value:
+                enabled: true
+                sliderValue: 36
+        ai_demolish:
+          ai_demolish_walls:
+            enabled:
+              contents:
+                suggested-value: true
+          ai_demolish_trapped:
+            enabled:
+              contents:
+                suggested-value: true
+          ai_demolish_eco:
+            enabled:
+              contents:
+                suggested-value: true
+        ai_addattack:
+          contents:
+            suggested-value:
+              enabled: false
+              choice: relative
+              choices:
+                absolute:
+                  slider: 5
+                relative:
+                  slider: 0.3
+        ai_attacklimit:
+          contents:
+            suggested-value:
+              enabled: true
+              sliderValue: 500
+        ai_attackwave:
+          contents:
+            suggested-value:
+              enabled: true
+              sliderValue: 7
+        ai_recruitinterval:
+          enabled:
+            contents:
+              suggested-value: false
+        ai_recruitstate_initialtimer:
+          contents:
+            suggested-value:
+              enabled: false
+              sliderValue: 0
+        fix_apple_orchard_build_size:
+          enabled:
+            contents:
+              suggested-value: true
+        o_freetrader:
+          enabled:
+            contents:
+              suggested-value: true
+        o_healer:
+          enabled:
+            contents:
+              suggested-value: true
+        o_responsivegates:
+          enabled:
+            contents:
+              suggested-value: true
+        o_shfy:
+          o_shfy_beer:
+            enabled:
+              contents:
+                suggested-value: false
+        u_arabwall:
+          enabled:
+            contents:
+              suggested-value: true
+        u_arabxbow:
+          enabled:
+            contents:
+              suggested-value: true
+        u_laddermen:
+          enabled:
+            contents:
+              suggested-value: true
+        u_spearmen:
+          enabled:
+            contents:
+              suggested-value: true
+        u_spearmen_run:
+          enabled:
+            contents:
+              suggested-value: true
+        o_fix_map_sending:
+          enabled:
+            contents:
+              suggested-value: true
+        o_fix_rapid_deletion_bug:
+          enabled:
+            contents:
+              suggested-value: true
+        o_fix_baker_disappear:
+          enabled:
+            contents:
+              suggested-value: true
+        o_fix_fletcher_bug:
+          enabled:
+            contents:
+              suggested-value: true
+        o_fix_ladderclimb:
+          enabled:
+            contents:
+              suggested-value: true
+        o_fix_moat_digging_unit_disappearing:
+          enabled:
+            contents:
+              suggested-value: true
+        o_restore_arabian_engineer_speech:
+          enabled:
+            contents:
+              suggested-value: true
+        u_fireballistafix:
+          enabled:
+            contents:
+              suggested-value: true
+        u_fix_applefarm_blocking:
+          enabled:
+            contents:
+              suggested-value: true
+        u_fix_lord_animation_stuck_movement:
+          enabled:
+            contents:
+              suggested-value: true
+        u_tanner_fix:
+          enabled:
+            contents:
+              suggested-value: true
+        o_change_siege_engine_spawn_position_catapult:
+          enabled:
+            contents:
+              suggested-value: true
+        o_increase_path_update_tick_rate:
+          enabled:
+            contents:
+              suggested-value: true
+        o_override_identity_menu:
+          enabled:
+            contents:
+              suggested-value: true
+        o_playercolor:
+          contents:
+            suggested-value:
+              enabled: true
+              choice: purple
+        o_xtreme:
+          enabled:
+            contents:
+              suggested-value: true
+        o_armory_marketplace_weapon_order_fix:
+          enabled:
+            contents:
+              suggested-value: true
+        o_fast_placing:
+          enabled:
+            contents:
+              suggested-value: false
+        o_default_multiplayer_speed:
+          contents:
+            suggested-value:
+              enabled: true
+              sliderValue: 60
+        o_engineertent:
+          enabled:
+            contents:
+              suggested-value: true
+        o_gamespeed:
+          enabled:
+            contents:
+              suggested-value: true
+        o_firecooldown:
+          contents:
+            suggested-value:
+              enabled: true
+              sliderValue: 6041
+    graphicsApiReplacer:
+      config:
+        window:
+          type:
+            contents:
+              suggested-value: borderlessWindow
+          width:
+            contents:
+              suggested-value: 3440
+          height:
+            contents:
+              suggested-value: 1440
+          continueOutOfFocus:
+            contents:
+              suggested-value: pause
+  plugins:
+    Easterling-Maps:
+      config: {}
+    Easterling-AIs:
+      config: {}
+meta:
+  version: 1.0.0

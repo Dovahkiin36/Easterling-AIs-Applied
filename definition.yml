@@ -1,0 +1,10 @@
+name: Easterling-AIs-Applied
+author: Easterling
+version: 1.0.0
+dependencies:
+  graphicsApiReplacer: ^1.2.0
+  ucp2-legacy: ^2.15.1
+  Easterling-Maps: ^1.0.0
+  Easterling-AIs: ^1.0.0
+  framework: ">=3.0.4"
+  frontend: ">=1.0.6"
