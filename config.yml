@@ -826,13 +826,13 @@ config-sparse:
         ai_addattack:
           contents:
             suggested-value:
-              enabled: false
+              enabled: true
               choice: relative
               choices:
                 absolute:
                   slider: 5
                 relative:
-                  slider: 0.3
+                  slider: 0.5
         ai_attacklimit:
           contents:
             suggested-value:
