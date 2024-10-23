@@ -57,13 +57,15 @@ config-sparse:
                 - name: Brandstifter
                   root: ucp/plugins/Easterling-AIs/resources/ai/Arsonist/
                   control:
+                    lines: true
                     aic: true
                     aiv: true
                     startTroops: true
               sultan:
-                - name: Sultan (Easterling)
-                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                - name: Schah
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Schah/
                   control:
+                    lines: true
                     aic: true
                     aiv: true
                     lord: true
@@ -108,6 +110,7 @@ config-sparse:
                 - name: Kamel
                   root: ucp/plugins/Easterling-AIs/resources/ai/Camel/
                   control:
+                    lines: true
                     aic: true
                     aiv: true
                     startTroops: true
@@ -115,6 +118,7 @@ config-sparse:
                 - name: Händler
                   root: ucp/plugins/Easterling-AIs/resources/ai/Merchant/
                   control:
+                    lines: true
                     aic: true
                     aiv: true
                     lord: true
@@ -356,6 +360,12 @@ config-sparse:
                   root: ucp/plugins/Easterling-AIs/resources/ai/Wolf/
                   active: true
           caliph:
+            lines:
+              contents:
+                suggested-value:
+                  name: Brandstifter
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Arsonist/
+                  active: true
             aic:
               contents:
                 suggested-value:
@@ -374,30 +384,36 @@ config-sparse:
                   name: Brandstifter
                   root: ucp/plugins/Easterling-AIs/resources/ai/Arsonist/
                   active: true
-          sultan:
+          sultan:            
+            lines:
+              contents:
+                suggested-value:
+                  name: Schah
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Schah/
+                  active: true
             aic:
               contents:
                 suggested-value:
-                  name: Sultan (Easterling)
-                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  name: Schah
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Schah/
                   active: true
             aiv:
               contents:
                 suggested-value:
-                  name: Sultan (Easterling)
-                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  name: Schah
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Schah/
                   active: true
             lord:
               contents:
                 suggested-value:
-                  name: Sultan (Easterling)
-                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  name: Schah
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Schah/
                   active: true
             startTroops:
               contents:
                 suggested-value:
-                  name: Sultan (Easterling)
-                  root: ucp/plugins/Easterling-AIs/resources/ai/Sultan/
+                  name: Schah
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Schah/
                   active: true
           frederick:
             binks:
@@ -497,7 +513,13 @@ config-sparse:
                   name: Lord Manikin
                   root: ucp/plugins/Easterling-AIs/resources/ai/Manikin/
                   active: true
-          wazir:
+          wazir:            
+            lines:
+              contents:
+                suggested-value:
+                  name: Kamel
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Camel/
+                  active: true
             aic:
               contents:
                 suggested-value:
@@ -516,7 +538,13 @@ config-sparse:
                   name: Kamel
                   root: ucp/plugins/Easterling-AIs/resources/ai/Camel/
                   active: true
-          emir:
+          emir:          
+            lines:
+              contents:
+                suggested-value:
+                  name: Händler
+                  root: ucp/plugins/Easterling-AIs/resources/ai/Merchant/
+                  active: true
             aic:
               contents:
                 suggested-value:
@@ -953,7 +981,7 @@ config-sparse:
           contents:
             suggested-value:
               enabled: true
-              choice: purple
+              choice: blue
         o_xtreme:
           enabled:
             contents:
@@ -989,13 +1017,13 @@ config-sparse:
         window:
           type:
             contents:
-              suggested-value: borderlessWindow
+              suggested-value: borderlessFullscreen
           width:
             contents:
-              suggested-value: 3440
+              suggested-value: 1280
           height:
             contents:
-              suggested-value: 1440
+              suggested-value: 720
           continueOutOfFocus:
             contents:
               suggested-value: pause
